@@ -19,7 +19,7 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Splash"),
+        title: Text("Initial screen"),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
