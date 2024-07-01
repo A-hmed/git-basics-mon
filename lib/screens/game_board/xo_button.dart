@@ -16,7 +16,7 @@ class XoButton extends StatelessWidget {
                 },
                 child: Text(
                   symbol,
-                  style: TextStyle(fontSize: 25),
+                  style: TextStyle(fontSize: 30),
                 ))));
   }
 }
