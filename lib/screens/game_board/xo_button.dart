@@ -9,7 +9,8 @@ class XoButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Expanded(child: Container(
-        margin: EdgeInsets.all(8),
+            color: Colors.red,
+            margin: EdgeInsets.all(8),
         child: ElevatedButton(onPressed: (){
           onClick(index);
         }, child: Text(symbol, style: TextStyle(fontSize: 22),))));
